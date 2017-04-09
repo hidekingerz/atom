@@ -22,22 +22,22 @@
 
 '.source.python':
   'python new class:':
-    'prefix':'class'
+    'prefix': 'new class'
     'body': """
-    aaaaa
-    """
+
+"""
 
   'python initialize:':
-    'prefix':'init'
+    'prefix': 'init'
     'body':"""
 # -*- coding: utf-8 -*-
 
 
 def main():
-    print hoge
+    $1
 
 
 if __name__ == "__main__":
     main()
 
-    """
+"""
